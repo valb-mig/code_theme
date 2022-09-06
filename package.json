@@ -1,0 +1,51 @@
+{
+  "name": "code-theme",
+  "displayName": "Code-Theme",
+  "description": "A dark theme for codding :)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "scripts": {
+		"publish": "vsce publish"
+	},
+  "publisher": "valb-mig",
+	"author": {
+		"name": "Ivalber Miguel",
+		"email": "valb.mig@gmail.com",
+		"url": "https://github.com/valb-mig"
+	},
+  "icon": "logo.png",
+	"galleryBanner": {
+		"theme": "dark"
+	},
+  "keywords": [
+		"theme",
+		"dark",
+		"code-theme",
+		"color-theme"
+	],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Code-Theme (Desaturated)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/code-theme-color-des-theme.json"
+      },
+      {
+        "label": "Code-Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/code-theme-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/valb-mig/code_theme.git"
+	}
+}
+
+
